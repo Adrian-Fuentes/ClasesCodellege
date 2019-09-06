@@ -1,7 +1,7 @@
-Nuevo texto
+Las rosas son rojas
 
-Ejercicios
+Las violetas son azules
 
-Hola Mundo
+Esto no rima
 
-Ayer Llovio
+Pero estoy en Codellege
