@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario</title>
+    
+        <style>
+            #fondo{
+                background-color: lightgreen;
+                
+                margin: auto;
+                width: 1250px;
+                height: 585px;
+                text-align: center;
+                border-radius: 5px;
+            }
+            
+        
+            h2{
+                margin-right:18%;
+                margin-top:2%;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <div id="fondo">
+            <!--PArte 1-->
+            <form>
+                <div class="orden">
+                
+                    <h2>Step 1: Your details</h2>
+
+                    <div style="background-color: greenyellow;padding: 10px;border-radius: 5px ;width:400px;border:solid 1px;
+                    margin-left: 33%;margin-top:-1%">
+                        Name:
+                        <input style="margin-left:15%" type="text" placeholder="First name & Last Name" pattern="[A-Za-z]" required >
+                    </div>
+                    <div style="background-color: greenyellow;padding: 10px;border-radius: 5px ;width:400px;border:solid 1px;|
+                    margin-left: 33%">
+                        Email
+                        <input style="margin-left:15%" type="email" placeholder="example@domain.com" required>
+                    </div>
+                    <div style="background-color: greenyellow;padding: 10px;border-radius: 5px ;width:400px;border:solid 1px;
+                    margin-left: 33%">
+                        Phone:
+                        <input style="margin-left:15%" type="text" placeholder="Eg 123-456-7890" pattern="[0-9]" maxlength="10" required>
+                    </div>
+                </div>
+            <!--Parte 2-->
+                <div class="orden">
+                    <h2 style="margin-right:15%">Step 2:Delivery Adress</h2>
+                    <div style="background-color: greenyellow;padding: 10px;border-radius: 5px ;width:400px;border:solid 1px;
+                    margin-left: 33%">
+                        Adress:
+                        <input style="margin-left:15%" type="text" pattern="[A-Za-z]" required>
+                    </div>
+                    <div style="background-color: greenyellow;padding: 10px;border-radius: 5px ;width:400px;border:solid 1px;margin-left: 33%">
+                        Post code:
+                        <input style="margin-left:15%" type="text" placeholder="123456" pattern="[0-9]" maxlength="6" required>
+                    </div>
+                    <div style="background-color: greenyellow;padding: 10px;border-radius: 5px ;width:400px;border:solid 1px;margin-left: 33%">
+                        Country:
+                        <input style="margin-left:15%" type="text" required>
+                    </div>  
+                </div>  
+            <!--Parte 3-->
+                <div class=orden>  
+                    <h2>Step 3:Card details</h2>
+                    <div style="background-color: greenyellow;padding: 10px;border-radius: 5px ;width:400px;border:solid 1px;margin-left: 33%">
+                        Card Number:
+                        <input style="margin-left:15%" type="text" placeholder="1234-5678-1234-5678" pattern="[0-9]" maxlength="16" required>
+                    </div >
+                    <div style="background-color: greenyellow;padding: 10px;border-radius: 5px ;width:400px;border:solid 1px;margin-left: 33%">
+                            Segurity Code:
+                        <input style="margin-left:15%" type="text" placeholder="123" pattern="[0-9]" maxlength="3" required>
+                    </div>
+                    <div style="background-color: greenyellow;padding: 10px;border-radius: 5px ;width:400px;border:solid 1px;margin-left: 33%">
+                        Name on Card:
+                        <input style="margin-left:15%" type="text" placeholder="Exact Name on the Card" pattern="[A-Za-z]" required>
+                    </div>
+                </div>    
+            </form>
+        </div>
+    </body>
+</html>
